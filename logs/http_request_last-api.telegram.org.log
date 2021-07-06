@@ -1,0 +1,26 @@
+## [2021-06-15 11:35:14] Request #######################################
+
+POST /bot1326712475:AAEWQfqW1sCIGxzrEHfqEG_0A3lIeuMW09Q/sendMessage HTTP/1.1
+Host: api.telegram.org
+Content-Type: application/json; charset=en
+User-Agent: LiteCart/2.2.7
+Content-Length: 335
+Connection: Close
+
+{"chat_id":"838418753","text":"Buyurtma raqami: #38\r\nMahsulot: 1 x LaLaKu Diaper\r\n\r\nSummasi: 80,000 so`m\r\nKim tomonidan: Donald Trump dan \r\nManzil: Donald Trump\r\n2212 Oxford Road\r\n \r\nToshkent\r\nUzbekistan\r\n\r\nTEL: %phone\r\nURL: https://lalashop.uz/en/order?order_id=38&public_key=1w3r5630j320gy2i87uzyx9uwfe9th91"}
+
+## [2021-06-15 11:35:15] Response — 1015 bytes transferred in 1.336 s ##
+
+HTTP/1.1 200 OK
+Server: nginx/1.20.1
+Date: Tue, 15 Jun 2021 06:35:15 GMT
+Content-Type: application/json
+Content-Length: 627
+Connection: close
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+
+{"ok":true,"result":{"message_id":61,"from":{"id":1326712475,"is_bot":true,"first_name":"LaLaKu Dostavka (Yetkazib berish)","username":"lalaku_dostavka_bot"},"chat":{"id":838418753,"first_name":"QWeb","last_name":"Founder","username":"qweb_founder","type":"private"},"date":1623738915,"text":"Buyurtma raqami: #38\nMahsulot: 1 x LaLaKu Diaper\n\nSummasi: 80,000 so`m\nKim tomonidan: Donald Trump dan \nManzil: Donald Trump\n2212 Oxford Road\n \nToshkent\nUzbekistan\n\nTEL: %phone\nURL: https://lalashop.uz/en/order?order_id=38&public_key=1w3r5630j320gy2i87uzyx9uwfe9th91","entities":[{"offset":182,"length":84,"type":"url"}]}}
+

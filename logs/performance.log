@@ -1,0 +1,24 @@
+[2021-03-22 11:21:00 UTC] Warning: A MySQL connection established in 1.196 s.
+[2021-03-22 11:21:00 UTC] Warning: A MySQL connection established in 1.175 s.
+[2021-03-22 11:21:01 UTC] Warning: A MySQL connection established in 1.067 s.
+[2021-03-28 09:31:59 UTC] Warning: A MySQL connection established in 1.220 s.
+[2021-03-28 10:13:02 UTC] Warning: A MySQL query executed in 3.568 s. Query: select * from `u562342975_lalakushop`.`lc_settings`
+        where `type` = 'global';
+[2021-03-29 06:25:01 UTC] Warning: A MySQL connection established in 1.037 s.
+[2021-04-09 21:08:08 Asia/Tashkent] Warning: A MySQL query executed in 3.287 s. Query: select * from `u562342975_lalakushop`.`lc_products_info`
+            where product_id = 19
+            and language_code in ('uz')
+            order by field(language_code, 'uz');
+[2021-04-11 11:39:37 Asia/Tashkent] Warning: A MySQL query executed in 3.460 s. Query: select * from `u562342975_lalakushop`.`lc_products`
+            where id = 17
+            limit 1;
+[2021-04-16 19:00:06 UTC] Warning: A MySQL connection established in 1.775 s.
+[2021-05-25 17:26:03 UTC] Warning: A MySQL connection established in 1.034 s.
+[2021-06-16 22:49:18 UTC] Warning: A MySQL query executed in 6.990 s. Query: select * from `u562342975_lalakushop`.`lc_settings`
+        where `type` = 'global';
+[2021-06-20 07:49:09 UTC] Warning: A MySQL query executed in 3.586 s. Query: select * from `u562342975_lalakushop`.`lc_settings`
+        where `type` = 'global';
+[2021-06-27 21:34:23 Asia/Tashkent] Warning: A MySQL query executed in 4.548 s. Query: select id, text_en, `text_ru` from `u562342975_lalakushop`.`lc_translations`
+        where code = 'template:title_sidebar_parallax_effect'
+        limit 1;
+[2021-07-05 11:25:48 UTC] Warning: A MySQL connection established in 1.056 s.

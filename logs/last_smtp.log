@@ -1,0 +1,37 @@
+Connecting to tcp://smtp.hostinger.com:587 ...
+< 220 ESMTP smtp.hostinger.com
+> EHLO www.lalashop.uz
+< 250-smtp.hostinger.com
+< 250-PIPELINING
+< 250-SIZE 48811212
+< 250-ETRN
+< 250-STARTTLS
+< 250-AUTH PLAIN LOGIN
+< 250-ENHANCEDSTATUSCODES
+< 250-8BITMIME
+< 250-DSN
+< 250 SMTPUTF8
+> STARTTLS
+< 220 2.0.0 Ready to start TLS
+> EHLO www.lalashop.uz
+< 250-smtp.hostinger.com
+< 250-PIPELINING
+< 250-SIZE 48811212
+< 250-ETRN
+< 250-AUTH PLAIN LOGIN
+< 250-ENHANCEDSTATUSCODES
+< 250-8BITMIME
+< 250-DSN
+< 250 SMTPUTF8
+> AUTH LOGIN
+< 334 VXNlcm5hbWU6
+> c290dXZjaGlAbGFsYXNob3AudXo=
+< 334 UGFzc3dvcmQ6
+> TGFsYXNob3AyMDIx
+< 235 2.7.0 Authentication successful
+> MAIL FROM: <yordam@lalashop.uz>
+< 250 2.1.0 Ok
+> RCPT TO: <yordam@lalashop.uz>
+< 553 5.7.1 <yordam@lalashop.uz>: Sender address rejected: not owned by user sotuvchi@lalashop.uz
+> QUIT
+
